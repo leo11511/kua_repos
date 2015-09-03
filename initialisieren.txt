@@ -1,0 +1,17 @@
+GITHUB.COM
+	neues Repository anlegen
+
+Host:
+	mkdir kua_fit4h 	#Verzeichniss erstellen
+	cd kua_fit4h			#Verzeichniss wechseln
+	git init					#Initialisieren eines neues GIT Repos.
+	touch text.txt  	#Erzeugen einer neuen Datei
+	git add text.txt  #Die Datei text.txt wird ins neue Repository aufgenommen, d.h. unter Versionsverwaltung gestellt.
+	git commit -m 'Initialisierung'	
+	#Die neue Datei wir in den bereich der Dateien geschoben, die mit dme Server synchronissiert werden sollen
+
+git remote add origin https://github.com/leo11511/FIT4H-kua.git
+#Das lokale Repository wird mit einem öffentlichen Repository verbunden; es wird dem entsprechend GITHUB-Repository hinzugefügt
+
+git push -u origin master 
+#Die Änderungen die auf dem lokal Repository durchgeführt wurden werden mit dme Stand auf dem Server verglichen und die neuere version wird auf dem Server kopiert
