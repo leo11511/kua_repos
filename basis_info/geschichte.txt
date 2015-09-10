@@ -1,0 +1,3 @@
+-Linux meint den Kernel
+-Distribution das Fein-Tuning(ubuntu, kubuntu)
+-Nur Software die von der Open Group zertiizeirt ist, darf sich Open Source nennen
