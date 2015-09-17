@@ -1,0 +1,23 @@
+********Löschen*******************
+d-
+	dd	-	löscht die ganze Zeile
+	d$	-	löscht bis zum Ende der Zeile
+
+Erweiterungen
+	w 	-	zum Nächsten Wort
+	e 	-	zum Ende des aktuellen Wortes mit dessen letztem Zeichen
+	$		-zum Ende der Zeile
+
+	mit einer Zahl davor kann man die Erweiterungen ergänzen
+	3e 	-	geht drei Wörter weiter
+
+	oder man tippt die 0 und man kommt an den Anfang der Zeile
+
+	***********Suchen****************
+
+/Suchmuster #sucht nach Suchmuster
+n						#sucht weiter
+n 					#sucht zurück
+gg					#Dateianfang
+G 					#Dateiende
+100G				#springt in Zeile 100
