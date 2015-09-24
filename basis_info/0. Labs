@@ -1,0 +1,4 @@
+echo 		#gibt etwas wieder
+echo $PATH	#gibt den Pfad an
+which date	#sag an wo der date ordner liegt
+echo D*		#zeigt alle Ordner mit "D" als Anfangsbuchstaben an

@@ -1,0 +1,21 @@
+echo 		#gibt etwas wieder
+echo $PATH	#gibt den Pfad an
+which date	#sag an wo der date ordner liegt
+echo D*		#zeigt alle Ordner mit "D" als Anfangsbuchstaben an
+date 		#gibt das aktuelle Datum an
+man 		#ist quasi handbuch
+man date	#gib Informationen zum Datum aus
+H or h 		#Display for help
+Q or q 		#Quit help
+/ 			#vorwärtssuche
+?			#rückwärtssuche
+n			#zum nächsten Suchtreffer
+N 			#zum vorherigen Suchtreffer
+man -k 	password	#"-k" gibt die Keywords für den nachfolgenden Befehl/ alternativ für -k apropos 
+man -f passwd 		#"-f" gibt die nachfolgenden Möglichkeiten für passwd an
+whatis passwd 		#gibt an was sich hinter passwd verbirgt
+info date 			#gibt Informationen über das Datum
+date --help			#"--help" zeigt dir die Optionen hinter dem Funktionsaufruf
+locate dateinname 	#ist eine Art Suchfunktion
+pwd 				#zeigt den Pfad des Pwd an
+echo $HOME 			#zeigt dir deinen User Ordner an, dort hat man mehr Rechte als jemand anders
