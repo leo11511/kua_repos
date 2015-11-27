@@ -1,0 +1,9 @@
+Standardkonfiguration abfragen
+	useradd -D
+
+Standardkonfiguration ändern:
+	/etc/default/useradd
+
+Beim Anlegen der Homeverzeichnis wird ein Standard kopiert. 
+Die Dateien befinden sich in Ordenr /ect/skel.
+Sollen User eine Ordnerstruktur oder bestimmte Dateien standardmäßig erhalten, dann müssen diese hier angelegt werden.

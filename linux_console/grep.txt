@@ -11,5 +11,5 @@ Beispiel:
 	grep '[AS]' MrOlympia.txt
 		#sucht am Anfang der Zeile (^) nach großem S oder A in der Datei MrOlympia
 
-	grep '\<Coleman\>' MrOlympia.txt
-		# 
+	grep '\<Coleman\>' MrOlympia.dat
+		#sucht nach dem ganzen Wort (Leerzeichn am Anfang und Ende) Coleman

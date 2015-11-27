@@ -1,0 +1,19 @@
+
+uname -r	#identifiziert die Kernelversion
+
+lsb_release
+
+tail -f /var/log/syslog		#Live-Mitschnitt-Logdaten
+
+tail -f /var/log/boot.log	#Startvorgang-Protokol
+
+sudo apt-get -update		#Vor einer Installation durchführen, Quellen hinzufüggen
+sudo apt-get upgrade		#Um diese Updates zu installieren
+sudo apt-get dist -upgrade	#Kernel upgrade
+
+
+less /etc/apt/sources.list
+wget
+
+dpkg -s vim		#Übersicht über die Pakete
+dpkg -L vim		#Übersicht der mit dem Paket verbundenen Dateien

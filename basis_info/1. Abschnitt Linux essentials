@@ -1,0 +1,17 @@
+Abschnitt 8:
+
+#Aufzählung von Inhalten
+- head		#gibt die 10 ersten Zeilen aus
+- tail 		#gibt die 10 letzten Zeilen aus
+
+
+ -	nl		#Listet die Lines auf 1., 2., ‚ 3.
+
+#Standard input == STDIN
+
+#Standard output == STDOUT
+
+#Standart eroor == STDERR
+
+#Bearbeitung folgender Texte
+- tr		#wandelt den gesamtne folgenden Text in Großbuchstaben um
